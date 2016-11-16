@@ -1,5 +1,8 @@
-# Localization:
 config {
+    doctype = html5
+    xmlprologue = xml_11
+    admPanel = 1
+
     linkVars = L
     sys_language_uid = 0
     sys_language_overlay = 2

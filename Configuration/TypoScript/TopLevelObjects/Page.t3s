@@ -1,0 +1,11 @@
+# Default PAGE object:
+page = PAGE
+page {
+    10 < styles.content.get
+
+    20 < lib.mainnav
+
+    bodyTag >
+    bodyTagCObject = TEXT
+    bodyTagCObject.dataWrap = <body class="page-{field:uid}">
+}

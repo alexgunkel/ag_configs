@@ -1,7 +1,7 @@
 
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/Lib/Navigation.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/TopLevelObjects/Lib/Navigation.t3s">
 
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/Basic/Page.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/Basic/Header.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/Basic/Language.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/Basic/Metadata.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/TopLevelObjects/Page.t3s">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/TopLevelObjects/Config.t3s">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TypoScript/TopLevelObjects/Page/Header.t3s">
+
