@@ -1,0 +1,12 @@
+
+#cat=page/language; type=string; label=default language (L=0)
+language.0 = de
+
+#cat=page/language; type=string; label=default language (L=0) locale
+locale.0 = de_DE
+
+#cat=page/language; type=string; label=language with L=1
+language.1 = en
+
+#cat=page/language; type=string; label=language with L=1 locale
+locale.1 = en_US

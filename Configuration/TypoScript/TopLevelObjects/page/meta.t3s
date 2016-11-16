@@ -2,11 +2,11 @@ page.meta {
     description = This is my description
 
 
-    og:locale = de_DE
+    og:locale = {$locale.0}
     og:locale:alternative {
         attribute = property
         value {
-            1 = en_EN
+            1 = {$locale.1}
         }
     }
 }

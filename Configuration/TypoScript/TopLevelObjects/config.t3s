@@ -7,17 +7,16 @@ config {
     sys_language_uid = 0
     sys_language_overlay = 2
     sys_language_mode = content_fallback
-    language = de
-    locale_all = de_DE.UTF-8
-    htmlTag_setParams = lang="de" dir="ltr" class="no-js"
+    language = {$language.0}
+    locale_all = {$locale.0}.UTF-8
+    htmlTag_setParams = lang="{$language.0}" dir="ltr" class="no-js"
 }
-
 
 [globalVar = GP:L = 1]
     config {
         sys_language_uid = 2
-        language = en
-        locale_all = en_US.UTF-8
-        htmlTag_setParams = lang="en" dir="ltr" class="no-js"
+        language = {$language.1}
+        locale_all = {$locale.1}.UTF-8
+        htmlTag_setParams = lang="{$language.1}" dir="ltr" class="no-js"
     }
 [global]
