@@ -1,0 +1,12 @@
+page.meta {
+    description = This is my description
+
+
+    og:locale = de_DE
+    og:locale:alternative {
+        attribute = property
+        value {
+            1 = en_EN
+        }
+    }
+}

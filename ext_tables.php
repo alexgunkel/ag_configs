@@ -11,8 +11,12 @@ ExtensionManagementUtility::addStaticFile(
     'AG Config Static Files'
 );
 
-ExtensionManagementUtility::addUserTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TSconfig/User/UserTS.ts">');
+ExtensionManagementUtility::addUserTSConfig(
+    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ag_configs/Configuration/TSconfig/User" extension="t3s">'
+);
 
-ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ag_configs/Configuration/TSconfig/Page/PageTS.ts">');
+ExtensionManagementUtility::addPageTSConfig(
+    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ag_configs/Configuration/TSconfig/Page" extension="t3s">'
+);
 
 ?>

@@ -1,0 +1,14 @@
+page {
+    javascriptLibs {
+        jQuery = 1
+        jQuery {
+            version = latest
+            source = google
+            noConflict = 0
+        }
+
+        SVG = 1
+
+        ExtJs = 1
+    }
+}

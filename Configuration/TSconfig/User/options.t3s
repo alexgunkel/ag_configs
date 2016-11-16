@@ -1,4 +1,3 @@
-admPanel.enable.all = 1
 
 options {
     pageTree {
