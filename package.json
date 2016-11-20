@@ -1,0 +1,25 @@
+{
+  "name": "ag_configs",
+  "version": "1.0.0",
+  "description": "TYPO3 extension template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgunkel/ag_configs.git"
+  },
+  "keywords": [
+    "TYPO3"
+  ],
+  "author": "Alexander Gunkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexgunkel/ag_configs/issues"
+  },
+  "homepage": "https://github.com/alexgunkel/ag_configs#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
