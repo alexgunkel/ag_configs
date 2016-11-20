@@ -1,5 +1,5 @@
 {
-  "name": "ag_configs",
+  "name": "typo3template",
   "version": "1.0.0",
   "description": "TYPO3 extension template",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexgunkel/ag_configs.git"
+    "url": "git+https://github.com/alexgunkel/typo3template.git"
   },
   "keywords": [
     "TYPO3"
@@ -16,9 +16,9 @@
   "author": "Alexander Gunkel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexgunkel/ag_configs/issues"
+    "url": "https://github.com/alexgunkel/typo3template/issues"
   },
-  "homepage": "https://github.com/alexgunkel/ag_configs#readme",
+  "homepage": "https://github.com/alexgunkel/typo3template#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
   }

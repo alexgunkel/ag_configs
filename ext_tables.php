@@ -12,15 +12,15 @@ ExtensionManagementUtility::addStaticFile(
 );
 
 ExtensionManagementUtility::addUserTSConfig(
-    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ag_configs/Configuration/TSconfig/User" extension="t3s">'
+    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3template/Configuration/TSconfig/User" extension="t3s">'
 );
 
 ExtensionManagementUtility::addPageTSConfig(
-    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ag_configs/Configuration/TSconfig/Page" extension="t3s">'
+    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3template/Configuration/TSconfig/Page" extension="t3s">'
 );
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    'AlexGunkel.' . $_EXTKEY,
+    'Alexgunkel.' . $_EXTKEY,
     'Index',
     'Example List'
 );
