@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'AG Configs',
-    'description' => 'Configuration for own TYPO3 projects',
+    'description' => 'TYPO3 Extension Template for own TYPO3 projects',
     'category' => 'misc',
     'version' => '0.0.1',
     'dependencies' => 'cms',
