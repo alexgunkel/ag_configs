@@ -1,0 +1,13 @@
+{
+    "name": "alexgunkel/ag-configs",
+    "description": "TYPO3 extension template",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Alexander Gunkel",
+            "email": "alexandergunkel@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
