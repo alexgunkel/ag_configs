@@ -3,5 +3,12 @@ if (!defined('TYPO3_MODE')) {
     die('Access denied.');
 }
 
-$GLOBALS['TYPO3_CONF_VARS']['SYS']['devIPmask'] = '127.0.0.1';
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+    'Alexgunkel.' . $_EXTKEY,
+    'Index',
+    array(
+        'Example' => 'index'
+    )
+);
+
 ?>
