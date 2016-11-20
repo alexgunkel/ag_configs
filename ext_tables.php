@@ -6,9 +6,9 @@ if (!defined('TYPO3_MODE')) {
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 ExtensionManagementUtility::addStaticFile(
-    'Alexgunkel.' . $_EXTKEY,
+    $_EXTKEY,
     'Configuration/TypoScript/',
-    'AG Config Static Files'
+    'TYPO3 Template Static Files'
 );
 
 ExtensionManagementUtility::addUserTSConfig(

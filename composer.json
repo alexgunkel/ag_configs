@@ -8,6 +8,11 @@
             "email": "alexandergunkel@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Alexgunkel\\Typo3template\\": "Classes/"
+        }
+    },
     "minimum-stability": "beta",
     "require": {}
 }
