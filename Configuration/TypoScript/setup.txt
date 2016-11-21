@@ -4,4 +4,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3template/Configuration/TypoScript/TopLevelObjects/page.t3s">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3template/Configuration/TypoScript/TopLevelObjects/page" extensions="t3s">
 
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3template/Configuration/TypoScript/TopLevelObjects/plugin" extensions="t3s">
+
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:typo3template/Configuration/TypoScript/TopLevelObjects/config.t3s">
